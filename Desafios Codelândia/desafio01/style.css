@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+/* font-family: 'Lexend Deca', sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f9f9f9;
+}
+.header-bg {
+  width: 100%;
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+}
+.header {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 41px 0px;
+}
+.logo h1 {
+  font-size: 24px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #ffff;
+  font-weight: 400;
+}
+.search-bg {
+  width: 100%;
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+  margin: 0 auto;
+}
+.section-search {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 32px 0px 41px 0px;
+}
+.search {
+  width: 100%;
+  height: 65px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.search img {
+  margin-left: 20.85px;
+}
+.search input {
+  width: 100%;
+  margin-left: 20.85px;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  opacity: 0.5;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+}
+.search input::placeholder {
+  color: #ffffff;
+}
+.card-container {
+  margin: 100px auto;
+}
+.card {
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+ margin: auto;
+  margin-bottom: 50px;
+border-radius: 5px;
+}
+.card h1 {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 26px;
+  color: #1a202c;
+  font-weight: 400;
+}
+.card h3 {
+  color: #717171;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.card p {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  font-size: 18px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: #717171;
+  line-height: 32px;
+}
+.header-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 23px 22px 23px;
+}
+@media (max-width: 425px){
+  .logo h1 {
+    font-size: 18px;
+  
+  }
+
+  .search {
+    height: 40px;
+
+  }
+  .search input {
+
+    font-size: 14px;
+  
+  }
+  .card h1 {
+ 
+    font-size: 18px;
+    
+  }
+  .card h3 {
+    color: #717171;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .card p {
+    font-size: 14px;
+  }
+}
